@@ -10,7 +10,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         Library memberA = new Library();
 
-        System.out.println("Please Enter city name:");
+        System.out.println("Please Enter city name: ");
         enterCity = scan.nextLine();
 
         memberA.getLibraryCardApproved(enterCity);
